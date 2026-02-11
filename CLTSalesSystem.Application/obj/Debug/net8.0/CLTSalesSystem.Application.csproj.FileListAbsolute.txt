@@ -1,0 +1,17 @@
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Application.deps.json
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Application.dll
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Application.pdb
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Domain.dll
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Domain.pdb
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.csproj.AssemblyReference.cache
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.AssemblyInfoInputs.cache
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.AssemblyInfo.cs
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.csproj.CopyComplete
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.dll
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\refint\CLTSalesSystem.Application.dll
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\CLTSalesSystem.Application.pdb
+C:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\obj\Debug\net8.0\ref\CLTSalesSystem.Application.dll
+c:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Infrastructure.dll
+c:\Users\SCV\CLTSalesSystem\CLTSalesSystem.Application\bin\Debug\net8.0\CLTSalesSystem.Infrastructure.pdb

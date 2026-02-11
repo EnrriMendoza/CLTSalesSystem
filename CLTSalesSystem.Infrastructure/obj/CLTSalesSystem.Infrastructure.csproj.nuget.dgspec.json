@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
+        "projectName": "CLTSalesSystem.Domain",
+        "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj",
+        "projectName": "CLTSalesSystem.Infrastructure",
+        "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.21.121, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
