@@ -100,6 +100,35 @@ namespace CLTSalesSystem.Infrastructure.Migrations
                     b.ToTable("PRODUCTOS", (string)null);
                 });
 
+            modelBuilder.Entity("CLTSalesSystem.Domain.Entities.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("USUARIOS", (string)null);
+                });
+
             modelBuilder.Entity("CLTSalesSystem.Domain.Entities.Venta", b =>
                 {
                     b.Property<int>("Id")

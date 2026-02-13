@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Application\\CLTSalesSystem.Application.csproj": {}
+    "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Application/CLTSalesSystem.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Application\\CLTSalesSystem.Application.csproj": {
+    "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Application/CLTSalesSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Application\\CLTSalesSystem.Application.csproj",
+        "projectUniqueName": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Application/CLTSalesSystem.Application.csproj",
         "projectName": "CLTSalesSystem.Application",
-        "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Application\\CLTSalesSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Application\\obj\\",
+        "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Application/CLTSalesSystem.Application.csproj",
+        "packagesPath": "/home/enrri/.nuget/packages/",
+        "outputPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/enrri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj"
+              "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj": {
+                "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj"
               },
-              "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj"
+              "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/CLTSalesSystem.Infrastructure.csproj": {
+                "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/CLTSalesSystem.Infrastructure.csproj"
               }
             }
           }
@@ -45,9 +45,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -66,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj": {
+    "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
+        "projectUniqueName": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj",
         "projectName": "CLTSalesSystem.Domain",
-        "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\obj\\",
+        "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj",
+        "packagesPath": "/home/enrri/.nuget/packages/",
+        "outputPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/enrri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -119,21 +131,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj": {
+    "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/CLTSalesSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj",
+        "projectUniqueName": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/CLTSalesSystem.Infrastructure.csproj",
         "projectName": "CLTSalesSystem.Infrastructure",
-        "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\CLTSalesSystem.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Infrastructure\\obj\\",
+        "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/CLTSalesSystem.Infrastructure.csproj",
+        "packagesPath": "/home/enrri/.nuget/packages/",
+        "outputPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/enrri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -145,8 +157,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj"
+              "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj": {
+                "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj"
               }
             }
           }
@@ -161,6 +173,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -190,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

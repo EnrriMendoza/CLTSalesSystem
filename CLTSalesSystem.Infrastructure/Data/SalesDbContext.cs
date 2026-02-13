@@ -14,18 +14,18 @@ namespace CLTSalesSystem.Infrastructure.Data
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Venta> Ventas { get; set; }
         public DbSet<DetalleVenta> DetallesVenta { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configure table names for Oracle compatibility (often uppercase is preferred but EF works fine with mixed case too, 
-            // but sticking to standard conventions often helps). 
-            // However, explicit mapping ensures consistency.
+            // Configure table names for Oracle compatibility
             modelBuilder.Entity<Cliente>().ToTable("CLIENTES");
             modelBuilder.Entity<Producto>().ToTable("PRODUCTOS");
             modelBuilder.Entity<Venta>().ToTable("VENTAS");
             modelBuilder.Entity<DetalleVenta>().ToTable("DETALLES_VENTA");
+            modelBuilder.Entity<Usuario>().ToTable("USUARIOS");
 
             // Configure Key/Relationships if needed beyond conventions
             

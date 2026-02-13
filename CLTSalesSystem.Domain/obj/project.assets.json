@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SCV\\.nuget\\packages\\": {}
+    "/home/enrri/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
+      "projectUniqueName": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj",
       "projectName": "CLTSalesSystem.Domain",
-      "projectPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
-      "packagesPath": "C:\\Users\\SCV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\obj\\",
+      "projectPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj",
+      "packagesPath": "/home/enrri/.nuget/packages/",
+      "outputPath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SCV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/enrri/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.123/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

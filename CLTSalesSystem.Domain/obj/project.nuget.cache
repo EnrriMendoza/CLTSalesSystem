@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mD5exaSjmu3mPAkNvNIfjp3yq9/WrL2bUrwsJeI6h9PotYxVQQTO2VvL1WYxRZRtON4DV49IBvjbWvWJ8Kq5ww==",
+  "dgSpecHash": "PYCsFks1FSxweDPbCXGZmEMYEIQ3sOk1MIb/2NBRc0ORXUb9Tvq1oF/8/RlfQUjrEhmk/EnE7exU2e8kLHZDgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SCV\\CLTSalesSystem\\CLTSalesSystem.Domain\\CLTSalesSystem.Domain.csproj",
+  "projectFilePath": "/home/enrri/Escritorio/CLTSalesSystem/CLTSalesSystem.Domain/CLTSalesSystem.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -3,6 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using CLTSalesSystem.Application.Interfaces;
+using CLTSalesSystem.Application.DTOs;
 
 namespace CLTSalesSystem.API.Controllers
 {
@@ -10,29 +12,29 @@ namespace CLTSalesSystem.API.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
+        private readonly IUsuarioService _usuarioService;
 
-        public AuthController(IConfiguration configuration)
+        public AuthController(IUsuarioService usuarioService)
         {
-            _configuration = configuration;
+            _usuarioService = usuarioService;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegistroUsuarioDTO registroDto)
+        {
+            var usuario = await _usuarioService.RegistrarAsync(registroDto);
+            return Ok(usuario);
         }
 
         [HttpPost("login")]
-        public IActionResult Login()
+        public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
         {
-            // Simulación de login exitoso
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"] ?? "SecretKeyForTestingPurposesOnly12345");
-            var tokenDescriptor = new SecurityTokenDescriptor
+            var response = await _usuarioService.LoginAsync(loginDto);
+            if (response == null)
             {
-                Subject = new ClaimsIdentity(new[] { new Claim("id", "1"), new Claim(ClaimTypes.Name, "TestUser") }),
-                Expires = DateTime.UtcNow.AddHours(1),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
-                Issuer = _configuration["Jwt:Issuer"],
-                Audience = _configuration["Jwt:Audience"]
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return Ok(new { Token = tokenHandler.WriteToken(token) });
+                return Unauthorized(new { message = "Usuario o contraseña incorrectos" });
+            }
+            return Ok(response);
         }
     }
 }
